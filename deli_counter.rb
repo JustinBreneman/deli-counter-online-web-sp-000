@@ -22,5 +22,7 @@ end
 def now_serving(the_deli)
   if the_deli.size == 0
     puts "There is nobody waiting to be served!"
+  else
+    the_deli.shift
   end
 end
