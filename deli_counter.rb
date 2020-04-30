@@ -21,6 +21,6 @@ end
 
 def now_serving(the_deli)
   if the_deli.size == 0
-    puts "The line is empty."
+    puts "There is nobody waiting to be served!"
   end
 end
