@@ -23,6 +23,7 @@ def now_serving(the_deli)
   if the_deli.size == 0
     puts "There is nobody waiting to be served!"
   else
-    the_deli.shift
+    currently_serving = the_deli.shift
+    puts "Currently serving #{currently_serving}."
   end
 end
