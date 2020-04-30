@@ -18,3 +18,9 @@ def take_a_number(the_deli, name)
   position = the_deli.index("#{name}") + 1
   puts "Welcome, #{name}. You are number #{position} in line."
 end
+
+def now_serving(the_deli)
+  if the_deli.size == 0
+    puts "The line is empty."
+  end
+end
